@@ -14,15 +14,15 @@
             "INSTALL_DESC": "Penginstalan plugin.",
             "NEED_URL": "Harap masukkan URL! Contoh:",
             "INVALID_URL": "```Harap masukkan url yang valid!```",
-            "INVALID_PLUGIN": "*❌ Plugin Anda tidak valid!*\n*Kesalahan:*",
-            "INSTALLED": "*✅ Plugin berhasil diinstal!*",
-            "PLUGIN_DESC": "Menunjukkan plugin yang telah Anda instal.",
-            "INSTALLED_FROM_REMOTE": "*Plugin yang Anda instal secara eksternal:*\n",
-            "NO_PLUGIN": "*Anda belum memasang plugin eksternal!*",
+            "INVALID_PLUGIN": "*[x] Plugin tidak benar*\n*Problem:*",
+            "INSTALLED": "*[√] Plugin berhasil dipasang!*",
+            "PLUGIN_DESC": "Menunjukkan daftar plugin yang terinstall.",
+            "INSTALLED_FROM_REMOTE": "*Plugin terinstall:*\n",
+            "NO_PLUGIN": "*[x] Tidak ada plugin terdeteksi.*",
             "REMOVE_DESC": "Menghapus plugin.",
             "NEED_PLUGIN": "```Harap masukkan sebuah Plugin! Contoh: .plugin __test```",
             "NOT_FOUND_PLUGIN": "```Mungkin Anda telah menginstal plugin seperti itu, atau mungkin belum. Tapi itu pasti tidak sekarang.```",
-            "DELETED": "*✅ Modul berhasil dihapus! Anda harus memulai ulang agar perubahan diterapkan.*"
+            "DELETED": "*[√] Module berhasil dihapus!*"
         },
         "admin": {
             "BAN_DESC": "Ban seseorang dalam grup. Balas pesan atau tandai seseorang untuk menggunakan perintah.",
@@ -45,14 +45,14 @@
             "INVITE": "```Tautan undangan:```"
         },
         "afk": {
-            "AFK_DESC": "Itu membuat Anda AFK.",
-            "IM_AFK": "*Saya AFK sekarang!*",
-            "IM_AFK_NOMD": "Saya AFK sekarang!",
-            "REASON": "Alasan",
-            "LAST_SEEN": "Terakhir dilihat",
-            "IM_NOT_AFK": "```Saya tidak lagi AFK!```",
-            "AFK_TEXT": "```Bip bop! Ini adalah bot. Pemilik saya tidak ada di sini saat ini.```",
-            "AFK_TEXT_NOMD": "Bip bop! Ini adalah bot. Pemilik saya tidak ada di sini saat ini.",
+            "AFK_DESC": "ini akan membuat anda offline.",
+            "IM_AFK": "*Saya OFFLINE sekarang.*",
+            "IM_AFK_NOMD": "Saya OFFLINE sekarang!",
+            "REASON": "Alasan Offline",
+            "LAST_SEEN": "Terakhir Online",
+            "IM_NOT_AFK": "```Offline dinonaktifkan.```",
+            "AFK_TEXT": "```Halo, saya adalah bot. Pemilik akun ini sedang offline sekarang. Bila ada pesan, silahkan tinggalkan disini, insyallah nanti akan dijawab :)```",
+            "AFK_TEXT_NOMD": "Halo, saya adalah bot. Pemilik akun ini sedang offline sekarang. Bila ada pesan, silahkan tinggalkan disini, insyallah nanti akan dijawab :)",
             "HOUR": "jam",
             "MINUTE": "menit",
             "SECOND": "detik"
@@ -87,14 +87,14 @@
         },
         "filters": {
             "FILTER_DESC": "Itu menambahkan filter. Jika seseorang menulis filter Anda, itu mengirimkan jawabannya. Jika Anda hanya menulis .filter, itu menunjukkan daftar filter Anda.",
-            "NO_FILTER": "*❌ Tidak ada filter dalam obrolan ini!*",
+            "NO_FILTER": "*[x] Filter tidak ditemukan.*",
             "FILTERS": "*🔎 Filter Anda dalam obrolan ini::*",
-            "NEED_REPLY": "*❌ Silahkan ketik dibalasan!*\n*Contoh:*",
-            "FILTERED": "*✅ Berhasil disetel* ```{}``` *untuk filter!*",
+            "NEED_REPLY": "*Silahkan ketik dibalasan!*\n*Contoh:*",
+            "FILTERED": "*[√] Filter diaktifkan.* ```{}``` *untukfilter!*",
             "STOP_DESC": "Menghentikan filter yang Anda tambahkan sebelumnya.",
             "NEED_FILTER": "*❌ Silahkan ketik dibalasan!*\n*Contoh:*",
-            "ALREADY_NO_FILTER": "*❌ Sudah tidak ada filter seperti ini!*",
-            "DELETED": "*✅ Filter berhasil dihapus!*"
+            "ALREADY_NO_FILTER": "*[x] Filter seperti ini sudah tidak ada.*",
+            "DELETED": "*[√] Filter dihapus.*"
         },
         "greetings": {
             "WELCOME_DESC": "Ini Menyetel pesan selamat datang. Jika Anda membiarkannya kosong, itu menunjukkan pesan selamat datang.",
